@@ -1,81 +1,20 @@
 <div align="center">
 
-# `Template Repository`
+# `dotfiles-install-script`
 
-Templatka repozytorium dla projektów, które mają być publicznie dostępne. Zawiera podstawowe pliki, które mogą być przydatne podczas tworzenia nowych projektów.
+Stary skrypt napisany w bashu do instalacji dotfiles dla systemu Linux oraz macOS.
 
+[![Linux](https://img.shields.io/badge/Linux-supported-FCC624?style=flat-square&logo=linux&logoColor=black)](#-linux)
+[![macOS](https://img.shields.io/badge/macOS-supported-000000?style=flat-square&logo=apple&logoColor=white)](#-macos)
 [![License](https://img.shields.io/github/license/Kogut01/dotfiles?style=flat-square&color=A3BE8C)](../LICENSE)
 
 </div>
 
 <br>
 
-<div align="center">
+### 📜 Opis
 
-### ⚙️ Ustawienia repozytorium ⚙️
-
-<br>
-
-</div>
-
-### General -> Pull request
-
-```
-❌ Allow merge commits
-
-✅ Allow squash merging:
-   
-      Default commit message -> Pull request title
-
-❌ Allow rebase merging:
-```
-
-<br>
-
-### Branches -> Add classic branch protection rule
-
-```
-⚙️ Branch name pattern: main
-
-⚙️ Protect matching branches:
-
-      ✅ Require status checks to pass before merging
-
-      ✅ Require conversation resolution before merging
-```
-
-<br>
-
-### Rules
-
-```
-⚙️ Ruleset Name: Default Ruleset
-
-⚙️ Enforcement status: 
-
-      ✅ Active
-
-⚙️ Target branches:
-
-      ✅ Add target -> Include default branch
-
-⚙️ Branch rules:
-
-      ✅ Automatically request Copilot code review
-```
-
-<br>
-
-### Actions
-
-```
-⚙️ Workflow permissions:
-
-      ✅ Read and write permissions
-
-✅ Allow GitHub Actions to create and approve pull requests
-
-```
+Skrypt `dotfiles-install-script` jest narzędziem do automatycznej instalacji i konfiguracji dotfiles na systemach Linux oraz macOS. Umożliwia łatwe zarządzanie i synchronizację ustawień użytkownika, takich jak konfiguracje terminala, edytora tekstu, menedżera okien i innych aplikacji. Skrypt jest napisany w bashu i jest przeznaczony do uzytku własnego, ale może być również dostosowany do potrzeb innych użytkowników.
 
 <br>
 
